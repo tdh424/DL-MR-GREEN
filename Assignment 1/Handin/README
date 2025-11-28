@@ -20,3 +20,17 @@ Open the following notebooks in Jupyter (or JupyterLab) and run all cells from t
   - Backpropagation derivations and numerical checks for **Task 1**.  
   - Running all cells reproduces the values reported in the PDF.
 
+## Requirements
+
+The notebooks assume a Python environment with:
+
+- `torch`
+- `numpy`
+- `matplotlib`
+- `wandb`
+- `tqdm` (for progress bars)
+
+Install via:
+
+```bash
+pip install torch numpy matplotlib wandb tqdm
