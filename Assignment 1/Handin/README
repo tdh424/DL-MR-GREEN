@@ -1,0 +1,22 @@
+# Deep Learning 2025 – Assignment 1
+
+This repository contains the code and notebooks for our solution to **Deep Learning 2025 – Assignment 1**.
+
+## Running the assignment code
+
+Open the following notebooks in Jupyter (or JupyterLab) and run all cells from top to bottom.
+
+- `feedforwardAssignment.ipynb`  
+  - Feed-forward network experiments for **Task 3** (deep vs. wide networks).  
+  - MLOps logging and hyperparameter sweep for **Task 4** (Weights & Biases).  
+  - For Task 3.4, decision-boundary frames are saved to:
+    - `frames_task3_4/`
+
+- `DL_AutoDiff_Nanograd.ipynb`  
+  - Nanograd-style automatic differentiation implementation for **Task 2**.  
+  - Running all cells reproduces the autodiff results and gradient checks.
+
+- `DL_Backpropagation_pen_and_paper.ipynb`  
+  - Backpropagation derivations and numerical checks for **Task 1**.  
+  - Running all cells reproduces the values reported in the PDF.
+
